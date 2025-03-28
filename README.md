@@ -4,7 +4,7 @@ A tool for generating pubkys with custom prefixes.
 
 ## Overview
 
-This tool allows you to create vanity pubky that begin with a specific string of your choice. For example, you might want a public key that starts with your name or a meaningful word.
+This tool allows you to create a vanity pubky that begins with a specific string of your choice. For example, you might want a public key that starts with your name or a meaningful word.
 
 When a matching key is found, the program automatically creates an encrypted recovery file that can be used to import and access your new vanity pubky.
 
@@ -39,7 +39,7 @@ Run the program with the following command:
 ```
 
 Where:
-- `PREFIX` is the desired beginning letters of your public key (default: "corey")
+- `PREFIX` is the desired beginning letters of your public key
 - `PASSPHRASE` is the passphrase used to encrypt the recovery file (default: "password")
 
 ### Examples
