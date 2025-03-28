@@ -11,7 +11,7 @@ When a matching key is found, the program automatically creates an encrypted rec
 ### Single line usage
 Just replace [PREFIX] with the desired prefix and [PASSPHRASE] with the desired passphrase.
 ```bash
-git clone https://github.com/coreyphillips/vanity-pubky && cd vanity-pubky && cargo build --release && ./target/release/vanity_pubky [PREFIX] --passphrase [PASSPHRASE]
+git clone https://github.com/coreyphillips/vanity-pubky && cd vanity-pubky && cargo build --release && ./target/release/vanity-pubky [PREFIX] --passphrase [PASSPHRASE]
 ```
 
 ### Building from Source
