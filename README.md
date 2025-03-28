@@ -51,7 +51,7 @@ Generate a key that starts with "bob":
 
 Generate a key that starts with "bob" and provide your own passphrase:
 ```
-./vanity_pubky bob --passphrase
+./vanity_pubky bob --passphrase my_passphrase
 ```
 
 ## Output
